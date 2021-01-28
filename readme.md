@@ -14,3 +14,9 @@ Ele é um código para criar estilos no HTML, CSS é a beleza e o HTML é uma es
 Ela é uma linguagem de style sheet pois possui sínteses
 
 Temos o site [Code Pen](https://codepen.io/pen/) que permite a utilização fácil dentre o HTML, CSS e JavaScript, assim você consegue unir os comandos dos três e ir visualizando o que acontece instantaneamente
+
+## Aula 03 - Comentários
+Como nas demais linguagens o CSS também contem o recurso de comentários, devemos usar pois ele ajuda deixando dicas para os outros entenderem com facilidade oque os comando estão realizando ou até nos mesmo depois de muito tempo de criar eles
+````
+/* MUDA UM POUCO COMO ATIVAR */
+````
