@@ -50,3 +50,6 @@ Classe seletor: .nomeClasse
 ````
 
 Futuramente iremos ver sobre os attribute selector, Pseudo-class e outros
+
+## Aula 06 - Box model
+O CSS trabalha com o conceito de box model onde ele é o espaço onde o conteúdo se encontra, não existe um conteúdo sem uma box model

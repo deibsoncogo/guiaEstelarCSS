@@ -17,3 +17,8 @@ h1.aula04 {
 h1.aula05, h2.aula05 {
   color: deeppink;
 }
+
+h1.aula06 {
+  border: 2px solid chocolate; /* CRIAÇÃO DE UMA BORDA */
+  padding: 10px; /* MARGEM INTERNA */
+}
