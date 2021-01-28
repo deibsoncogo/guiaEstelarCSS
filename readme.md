@@ -2,6 +2,8 @@
 
 Neste curso iremos aprender o básico de CSS com _**Mayk Brito**_ da Rocketseat
 
+Temos o site [W3 Schools](https://www.w3schools.com/) que fala sobre tudo detalhadamente do CSS
+
 >Nenhuma aplicação web vive sem CSS, sem um visual e nesse guia vamos entrar de cabeça no mundo das estilizações da web.
 
 ## Aula 01 - Abertura
@@ -19,4 +21,22 @@ Temos o site [Code Pen](https://codepen.io/pen/) que permite a utilização fác
 Como nas demais linguagens o CSS também contem o recurso de comentários, devemos usar pois ele ajuda deixando dicas para os outros entenderem com facilidade oque os comando estão realizando ou até nos mesmo depois de muito tempo de criar eles
 ````
 /* MUDA UM POUCO COMO ATIVAR */
+````
+
+## Aula 04 - Anatomia
+Para criar uma estilização vamos precisar de quatro itens
+* Selector: É a tag do HTML que vai receber a estilização
+  * h1
+* Declaration: É o conjunto de tudo dentro das chaves
+  * {...}
+* Properties: É o código que vai realizar certa estilização
+  * color
+* Property value: É o valor que o properties vai receber
+  * blue
+````
+h1 {
+  color: blue;
+  font-size: 60px;
+  background: gray;
+}
 ````
