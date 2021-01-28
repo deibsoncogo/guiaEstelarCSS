@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 * {
   background-color: #d3d3d3;
 }
@@ -21,4 +23,8 @@ h1.aula05, h2.aula05 {
 h1.aula06 {
   border: 2px solid chocolate; /* CRIAÇÃO DE UMA BORDA */
   padding: 10px; /* MARGEM INTERNA */
+}
+
+h1.aula07 {
+  font-family: 'Dancing Script', cursive;
 }

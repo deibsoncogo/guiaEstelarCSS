@@ -53,3 +53,33 @@ Futuramente iremos ver sobre os attribute selector, Pseudo-class e outros
 
 ## Aula 06 - Box model
 O CSS trabalha com o conceito de box model onde ele é o espaço onde o conteúdo se encontra, não existe um conteúdo sem uma box model
+
+## Aula 07 - Origem do CSS
+Existe quatro formas de adicionar o CSS em um arquivo HTML, os dois primeiro métodos não são recomendados pois eles vão aumentar muito as linhas de código no seu arquivo misturando as estilizações com as linhas de comandos
+
+O método é composto na utilização de um atributo de uma tag como abaixo
+````
+<h5 style="font-size: 50px">Estilização inline 1 props</h5>
+<h6 style="font-size: 45px; color: darkred">Estilização inline 2 props</h6>
+````
+
+No método tag usamos o próprio style no cabeçalho
+````
+<style>
+  h4 {
+    color: dimgrey;
+    font-size: 30px;
+    margin: 20px;
+  }
+</style>
+````
+
+Usando o link no cabeçalho é o melhor método de estilizar diretamente o HTML
+````
+<link rel="stylesheet" href="./style.css">
+````
+
+E por último as importações onde elas geram um pouco de atraso nos de sites terceiros
+````
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+````
