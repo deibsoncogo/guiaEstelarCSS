@@ -40,3 +40,13 @@ h1 {
   background: gray;
 }
 ````
+## Aula 05 - Seletores
+Os seletores ou tag servem para conectar o elemento HTML com o CSS
+````
+Seletor global: *
+Elemento ou tipo seletor: h1, h1, p, div e outros
+ID seletor: #valorID
+Classe seletor: .nomeClasse
+````
+
+Futuramente iremos ver sobre os attribute selector, Pseudo-class e outros
