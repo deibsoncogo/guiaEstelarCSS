@@ -83,3 +83,13 @@ E por último as importações onde elas geram um pouco de atraso nos de sites t
 ````
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 ````
+
+## Aula 08 - A Cascata
+É a regra de aplicar dos comandos de estilização, existe 3 fatores que devem ser obedecidos para poder executar uma boa estilização
+* Origem do estilo
+* Especificidade
+* Importância
+
+Na aula anterior vimos os tipos de vínculos de estilização do CSS com o HTML, onde uma consegue sobrepor a outra sendo que o **atributo style** é o mais forte de todos, depois temos a **tag style** e por último a tag link que é a importação mais elas possui o mesmo poder de aplicação, tudo isso é a origem do estilo
+
+A cascata também possui a regra onde o último comando de estilização do mesmo tipo é a que vai ser aplicada sobrepondo todos anteriores

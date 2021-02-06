@@ -28,3 +28,12 @@ h1.aula06 {
 h1.aula07 {
   font-family: 'Dancing Script', cursive;
 }
+
+h1.aula08 {
+  color: #fa6800;
+}
+
+p.aula08 {
+  color: #fa6800;
+  font-size: 20px;
+}
