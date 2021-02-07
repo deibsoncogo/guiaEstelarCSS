@@ -114,3 +114,12 @@ Esta é a tabela de força que cada tem possui e pode ser acumulado:
   * 10 - Atributos e classe (type="tipo", .classe)
   * 100 - Identidade (#id)
   * 1000 - Inline (style)
+
+## Aula 10 - Regra important
+Devemos evitar o uso dela pois sobrepõe tudo que aprendemos e não tem como modificar a estilização onde ela está aplicada sem a remoção da mesma
+````
+h1 {
+  color: yellow !important;
+}
+
+````
