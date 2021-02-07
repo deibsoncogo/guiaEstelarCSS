@@ -159,3 +159,6 @@ Toda função é comporta pelo seu nome e um argumento dentro de parêntesis
 color: rgb(255, 0, 100);
 width: calc(100% - 10px);
 ````
+
+## Aula 14 - DevTools
+Esta é uma ferramenta que existe nos navegadores, onde com ela conseguimos ver as estilizações que os items possui, assim conseguimos ver oque foi necessário para criar permitindo que nos faça o mesmo
