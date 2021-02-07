@@ -151,3 +151,11 @@ h1.aula12 {
 A ordem dos valores passada no atalho não tem importância, para os valores não definido será usado o padrão assim sobrescrevendo estilizações passada anteriormente
 
 Para mais detalhes temos o site da [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) com uma página que fala somente sobre este item
+
+
+## Aula 13 - Funções
+Toda função é comporta pelo seu nome e um argumento dentro de parêntesis
+````
+color: rgb(255, 0, 100);
+width: calc(100% - 10px);
+````
