@@ -123,3 +123,10 @@ h1 {
 }
 
 ````
+
+## Aula 11 - At rules
+Eles são regras que está relacionado ao comportamento do CSS, todas estas regras começam pelo @ seguindo identificador e valor, estes são os exemplos mais utilizado
+  * @import - Para realizar importações de links ou arquivos
+  * @media - Regras condicionais para os dispositivos (Responsividade)
+  * @font-face - Importação de fontes externas
+  * @keyframes - Para utilizar animações no CSS
