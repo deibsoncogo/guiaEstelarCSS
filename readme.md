@@ -130,3 +130,24 @@ Eles são regras que está relacionado ao comportamento do CSS, todas estas regr
   * @media - Regras condicionais para os dispositivos (Responsividade)
   * @font-face - Importação de fontes externas
   * @keyframes - Para utilizar animações no CSS
+
+## Aula 12 - Shorthand
+Ele é a junção de propriedades, invés de criar varias linhas com várias definições conseguimos por exemplo alterar tamanho, cor, fonte e mais algumas coisas em somente uma linha como abaixo
+````
+h1.aula12 {
+  font: italic bold .8em/1.2 Arial, sans-serif;
+}
+
+h1.aula12 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: .8em;
+  line-height: 1.2;
+  line-height: 1.2;
+  font-family: Arial, sans-serif;
+}
+````
+
+A ordem dos valores passada no atalho não tem importância, para os valores não definido será usado o padrão assim sobrescrevendo estilizações passada anteriormente
+
+Para mais detalhes temos o site da [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) com uma página que fala somente sobre este item

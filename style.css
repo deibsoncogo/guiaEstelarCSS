@@ -45,3 +45,7 @@ body h1.aula09 {
 h1.aula09 {
   color: yellow;
 }
+
+h1.aula12 {
+  font: italic bold .8em/1.2 Arial, sans-serif;
+}
