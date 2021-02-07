@@ -93,3 +93,24 @@ E por último as importações onde elas geram um pouco de atraso nos de sites t
 Na aula anterior vimos os tipos de vínculos de estilização do CSS com o HTML, onde uma consegue sobrepor a outra sendo que o **atributo style** é o mais forte de todos, depois temos a **tag style** e por último a tag link que é a importação mais elas possui o mesmo poder de aplicação, tudo isso é a origem do estilo
 
 A cascata também possui a regra onde o último comando de estilização do mesmo tipo é a que vai ser aplicada sobrepondo todos anteriores
+
+## Aula 09 - Especificidade
+Ele é um cálculo matemático onde cada tipo de seletor e origem do estilo possuem um valor a serem considerados
+
+O seletor universal possui o valor de zero onde mesmo se ele for o último da lista suas estilização não iram funcionar se tiver outro item mais forte como uma tag, no exemplo abaixo a cor a ser aplicada será a vermelha
+````
+h1 {
+  color: red;
+}
+
+* {
+  color: green;
+}
+````
+
+Esta é a tabela de força que cada tem possui e pode ser acumulado:
+  * 0 - Seletor universal (*)
+  * 1 - Tag e pseudo-elements (h1, ::before)
+  * 10 - Atributos e classe (type="tipo", .classe)
+  * 100 - Identidade (#id)
+  * 1000 - Inline (style)
