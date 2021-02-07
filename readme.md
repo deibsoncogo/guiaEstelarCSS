@@ -162,3 +162,6 @@ width: calc(100% - 10px);
 
 ## Aula 14 - DevTools
 Esta é uma ferramenta que existe nos navegadores, onde com ela conseguimos ver as estilizações que os items possui, assim conseguimos ver oque foi necessário para criar permitindo que nos faça o mesmo
+
+## Aula 15 - Cuidados com a escrita
+Devemos tomar cuidado ao digitar os comandos pois a maioria dos erros acontecem por falta de um espaço ou de um parenteses
