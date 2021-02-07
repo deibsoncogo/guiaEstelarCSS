@@ -165,3 +165,12 @@ Esta é uma ferramenta que existe nos navegadores, onde com ela conseguimos ver 
 
 ## Aula 15 - Cuidados com a escrita
 Devemos tomar cuidado ao digitar os comandos pois a maioria dos erros acontecem por falta de um espaço ou de um parenteses
+
+## Aula 16 - Vendor prefixes
+Alguns navegadores conseguem adicionar features (Novidades) do CSS de uma forma extremamente especifica assim para a estilização funcionar teremos que adicionar um comando que vária por navegador
+  * -webkit / Para Chrome, Safari, iOS e Android
+  * -moz / Para Mozilla (Firefox)
+  * -ms / Para o Internet Explorer
+  * -o / Para o Opera
+
+Para tirar a duvida de quando usar temos o site [Caniuse](http://caniuse.com) ou o [Ireade](http://ireade.github.io/which-vendor0prefiz/) para consultar
